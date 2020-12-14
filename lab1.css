@@ -4,13 +4,13 @@
 .header {
     overflow: visible;
     background-color: #1f1c1c;
-    padding: 20px 10px;
+    padding: 20px 20px;
     font-size: 45px;
     font-weight: bolder;
     color: rgb(255, 94, 0);
     column-span: all;
     height: 100px;
-    vertical-align: middle;
+    vertical-align: text-bottom;
   }
 
   .footer {
@@ -23,6 +23,27 @@
     text-align: center;
     vertical-align: bottom;
   }
+
+  hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 8px;
+    border-style: inset;
+    border-width: 1px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5em;
+ 
+  }
+
+ a {
+  color: rgb(221, 147, 9);
+  text-decoration: none;
+ }
 
 /*Create side by side divs */
 
@@ -48,4 +69,13 @@
   #column2 {
     background-color: #dadada;
     width: 25%;
+  }
+
+  #column3 {
+   width: 30%;
+  }
+  
+  #column4 {
+    width: 70%;
+    text-align: justify;
   }
